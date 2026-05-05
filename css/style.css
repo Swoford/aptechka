@@ -341,6 +341,27 @@ body{
 
 /* ================= BLOG ================= */
 
+.blog{
+    padding:80px 0;
+    background:#ffffff;
+}
+
+.blog h2{
+    margin-bottom:40px;
+}
+
+.blog-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+}
+
+.blog-card{
+    height:220px;
+    background:#dfe5ec;
+    border-radius:20px;
+}
+
 .blog-section{
     padding:100px 0;
     background:#ffffff;
