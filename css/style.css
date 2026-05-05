@@ -259,52 +259,6 @@ body{
     font-weight:600;
 }
 
-/* ================= HOW ================= */
-
-.how{
-    background:#ffffff;
-    padding:80px 0;
-}
-
-.how h2{
-    font-size:32px;
-    margin-bottom:40px;
-}
-
-.how-grid{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:40px;
-    font-weight:500;
-}
-
-/* ================= REVIEWS ================= */
-
-.reviews{
-    background:#eef2f5;
-    padding:80px 0;
-}
-
-.reviews-grid{
-    display:grid;
-    grid-template-columns:380px 1fr;
-    gap:50px;
-}
-
-.rating-box{
-    background:#ffffff;
-    padding:50px;
-    border-radius:20px;
-    text-align:center;
-    box-shadow:0 10px 30px rgba(0,0,0,0.05);
-}
-
-.rating-number{
-    font-size:70px;
-    font-weight:700;
-    margin-bottom:20px;
-}
-
 /* ================= PARTNERS ================= */
 
 .partners{
@@ -747,21 +701,9 @@ body{
     line-height:1.6;
 }
 
-.how{
-    background:#ffffff;
-    padding:80px 0;
-}
-
 .how h2{
     font-size:32px;
     margin-bottom:40px;
-}
-
-.how-grid{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:40px;
-    font-weight:500;
 }
 
 /* ================= REVIEWS ================= */
@@ -847,25 +789,6 @@ body{
     color:#2fc7a1;
     text-decoration:none;
     font-weight:600;
-}
-
-.reviews{
-    background:#eef2f5;
-    padding:80px 0;
-}
-
-.reviews-grid{
-    display:grid;
-    grid-template-columns:380px 1fr;
-    gap:50px;
-}
-
-.rating-box{
-    background:#ffffff;
-    padding:50px;
-    border-radius:20px;
-    text-align:center;
-    box-shadow:0 10px 30px rgba(0,0,0,0.05);
 }
 
 .rating-number{
