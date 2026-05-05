@@ -764,72 +764,90 @@ body{
     font-weight:500;
 }
 
-<!-- ===== REVIEWS ===== -->
+/* ================= REVIEWS ================= */
 
-<section class="reviews-section">
-<div class="container">
+.reviews-section{
+    padding:120px 0;
+    background:#eef2f5;
+}
 
-    <div class="reviews-wrapper">
+.reviews-wrapper{
+    display:grid;
+    grid-template-columns:400px 1fr;
+    gap:60px;
+    align-items:start;
+}
 
-        <!-- Левая карточка рейтинга -->
-        <div class="rating-card">
-            <h3>Средняя оценка аптеки</h3>
+.rating-card{
+    background:#ffffff;
+    padding:50px;
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.05);
+}
 
-            <div class="rating-number">4.8</div>
+.rating-card h3{
+    font-size:20px;
+    margin-bottom:30px;
+}
 
-            <div class="stars big">★★★★★</div>
+.rating-number{
+    font-size:70px;
+    font-weight:700;
+    margin-bottom:10px;
+}
 
-            <p>
-                Общий рейтинг на основе 4349 отзывов наших покупателей
-            </p>
+.stars{
+    color:#f4b400;
+    font-size:14px;
+}
 
-            <button class="btn-green">Оставить отзыв</button>
-        </div>
+.stars.big{
+    font-size:20px;
+    margin-bottom:20px;
+}
 
-        <!-- Отзывы справа -->
-        <div class="reviews-list">
+.rating-card p{
+    font-size:14px;
+    color:#6b7785;
+    margin-bottom:30px;
+    line-height:1.6;
+}
 
-            <div class="review-item">
-                <div class="review-header">
-                    <strong>Лиана, Москва</strong>
-                    <span>25 Июля</span>
-                    <div class="stars">★★★★★</div>
-                </div>
-                <p>
-                    По недоразумению купила не тот товар, разобрались и обменяли без лишней болтовни.
-                </p>
-            </div>
+/* REVIEWS LIST */
 
-            <div class="review-item">
-                <div class="review-header">
-                    <strong>Лиана, Москва</strong>
-                    <span>25 Июля</span>
-                    <div class="stars">★★★★☆</div>
-                </div>
-                <p>
-                    Благодарим за качественный сервис. Всегда помогут и подскажут.
-                </p>
-            </div>
+.reviews-list{
+    display:flex;
+    flex-direction:column;
+    gap:35px;
+}
 
-            <div class="review-item">
-                <div class="review-header">
-                    <strong>Лиана, Москва</strong>
-                    <span>25 Июля</span>
-                    <div class="stars">★★★★★</div>
-                </div>
-                <p>
-                    Спасибо за возможность покупать лекарства не выходя из дома.
-                </p>
-            </div>
+.review-item{
+    background:transparent;
+}
 
-            <a href="#" class="all-reviews">» Все 4349 отзывов</a>
+.review-header{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-bottom:10px;
+}
 
-        </div>
+.review-header span{
+    color:#6b7785;
+    font-size:14px;
+}
 
-    </div>
+.review-item p{
+    color:#4a5565;
+    line-height:1.6;
+}
 
-</div>
-</section>
+.all-reviews{
+    margin-top:10px;
+    color:#2fc7a1;
+    text-decoration:none;
+    font-weight:600;
+}
 
 .reviews{
     background:#eef2f5;
