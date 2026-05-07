@@ -521,10 +521,123 @@ body{
     line-height:1.6;
 }
 
-/* ================= FOOTER ================= */
+/* ================= QUESTIONS ================= */
+
+.questions-wrapper{
+    background:#ffffff;
+    padding:80px 0 0;
+}
+
+.questions{
+    background:#f4f6f8;
+    padding:50px;
+    border-radius:20px;
+    position:relative;
+    top:60px;
+}
+
+.questions h2{
+    margin-bottom:30px;
+    font-size:28px;
+}
+
+.questions-form{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.questions-form input{
+    flex:1;
+    padding:15px 20px;
+    border-radius:30px;
+    border:1px solid #ddd;
+}
+
+.policy{
+    font-size:13px;
+    max-width:260px;
+    color:#666;
+}
+
+.policy a{
+    color:#2fc7a1;
+    text-decoration:none;
+}
+
+/* ================= MAIN FOOTER ================= */
 
 .footer-main{
     background:linear-gradient(90deg,#1f3c88,#2fc7a1);
     padding:140px 0 80px;
     color:#ffffff;
+}
+
+.footer-grid{
+    display:grid;
+    grid-template-columns:1.2fr 1fr 1fr 1fr 1.5fr;
+    gap:40px;
+}
+
+.footer-logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+.logo-icon{
+    width:40px;
+    height:40px;
+    background:#2fc7a1;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    font-weight:bold;
+}
+
+.footer-col ul{
+    list-style:none;
+}
+
+.footer-col ul li{
+    margin-bottom:12px;
+    cursor:pointer;
+    opacity:0.9;
+}
+
+.footer-col ul li:hover{
+    opacity:1;
+}
+
+.footer-contacts .phone{
+    font-size:18px;
+    font-weight:600;
+    margin-top:10px;
+}
+
+.socials{
+    display:flex;
+    gap:10px;
+    margin-top:20px;
+}
+
+.soc{
+    width:36px;
+    height:36px;
+    border-radius:50%;
+    background:rgba(255,255,255,0.25);
+}
+
+.footer-info{
+    font-size:13px;
+    line-height:1.6;
+    opacity:0.9;
+}
+
+.copyright{
+    font-size:13px;
+    opacity:0.8;
 }
