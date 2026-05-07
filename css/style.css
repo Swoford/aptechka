@@ -259,40 +259,6 @@ body{
     font-weight:600;
 }
 
-/* ================= PARTNERS ================= */
-
-.partners{
-    padding:80px 0;
-    background:#ffffff;
-}
-
-.partners h2{
-    margin-bottom:40px;
-}
-
-.partners-grid{
-    display:flex;
-    justify-content:space-between;
-    opacity:0.7;
-}
-
-/* ================= ABOUT ================= */
-
-.about{
-    padding:100px 0;
-    background:#0f1f2f;
-    color:#ffffff;
-}
-
-.about h2{
-    margin-bottom:30px;
-}
-
-.about p{
-    line-height:1.8;
-    color:#cbd5e1;
-}
-
 /* ================= BLOG ================= */
 
 .blog{
@@ -799,36 +765,116 @@ body{
 
 /* ================= PARTNERS ================= */
 
-.partners{
-    padding:80px 0;
+.partners-section{
+    padding:100px 0;
     background:#ffffff;
 }
 
-.partners h2{
-    margin-bottom:40px;
+.partners-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:60px;
+}
+
+.partners-header h2{
+    font-size:36px;
+}
+
+.partners-arrows{
+    display:flex;
+    gap:15px;
 }
 
 .partners-grid{
-    display:flex;
-    justify-content:space-between;
-    opacity:0.7;
+    display:grid;
+    grid-template-columns:repeat(6, 1fr);
+    gap:50px 40px;
+    align-items:center;
+}
+
+.partner{
+    text-align:center;
+    font-weight:600;
+    opacity:0.6;
+    transition:0.3s;
+}
+
+.partner:hover{
+    opacity:1;
 }
 
 /* ================= ABOUT ================= */
 
-.about{
+.about-section{
+    padding:120px 0 60px;
+    background:#0f1f2f;
+    color:#ffffff;
+}
+
+.about-section h2{
+    font-size:36px;
+    margin-bottom:60px;
+}
+
+.about-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:60px;
+    margin-bottom:60px;
+}
+
+.about-grid p{
+    color:#cbd5e1;
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+.about-highlight{
+    background:linear-gradient(90deg,#1f3c88,#2fc7a1);
+    padding:40px 0;
+    margin:60px 0;
+    border-radius:20px;
+}
+
+.about-highlight .container{
+    font-weight:500;
+}
+
+.show-more{
+    color:#2fc7a1;
+    text-decoration:none;
+    font-weight:600;
+}
+
+/* ================= ALPHABET ================= */
+
+.alphabet-section{
     padding:100px 0;
     background:#0f1f2f;
     color:#ffffff;
 }
 
-.about h2{
-    margin-bottom:30px;
+.alphabet-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:40px;
 }
 
-.about p{
-    line-height:1.8;
-    color:#cbd5e1;
+.alphabet-header h2{
+    font-size:36px;
+}
+
+.alphabet-header a{
+    color:#2fc7a1;
+    text-decoration:none;
+}
+
+.alphabet{
+    letter-spacing:8px;
+    opacity:0.8;
+    margin-bottom:60px;
 }
 
 /* ================= BLOG ================= */
