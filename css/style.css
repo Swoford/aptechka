@@ -600,6 +600,105 @@ a,
     font-weight:600;
 }
 
+/* ================= ALPHABET ================= */
+
+.alphabet-section{
+padding:100px 0;
+background:#ffffff;
+color:#1f2d3d;
+}
+
+.alphabet-header{
+display:flex;
+justify-content:space-between;
+margin-bottom:40px;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.alphabet-header a{
+color:#2fc7a1;
+text-decoration:none;
+font-weight:600;
+}
+
+.alphabet{
+display:flex;
+flex-wrap:wrap;
+gap:18px;
+font-size:18px;
+margin-bottom:60px;
+}
+
+.alphabet span{
+cursor:pointer;
+color:#6b7785;
+transition:0.3s;
+}
+
+.alphabet span:hover{
+color:#2fc7a1;
+}
+
+/* ================= ALPHABET CARDS ================= */
+
+.alphabet-cards{
+margin-top:60px;
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:25px;
+}
+
+.alphabet-card{
+background:#f7f9fb;
+border-radius:20px;
+padding:30px;
+color:#1f2d3d;
+}
+
+.alphabet-card h3{
+margin-bottom:20px;
+font-size:18px;
+}
+
+.alphabet-card ul{
+list-style:none;
+margin-bottom:20px;
+}
+
+.alphabet-card ul li{
+margin-bottom:10px;
+color:#6b7785;
+font-size:14px;
+}
+
+.alphabet-card a{
+color:#2fc7a1;
+text-decoration:none;
+font-weight:600;
+}
+
+.alphabet span{
+cursor:pointer;
+transition:0.3s;
+}
+
+.alphabet span:hover{
+color:#2fc7a1;
+}
+
+@media(max-width:992px){
+.alphabet-cards{
+    grid-template-columns:repeat(2,1fr);
+}
+}
+
+@media(max-width:576px){
+.alphabet-cards{
+    grid-template-columns:1fr;
+}
+}
+
 /* ================= ALPHABET PAGE ================= */
 
 .alphabet-page{
