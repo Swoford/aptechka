@@ -104,146 +104,80 @@
             Лекарственные средства
         </h1>
 
-        <div class="category-layout">
+<div class="category-layout">
 
-            <!-- SIDEBAR -->
+    <!-- SIDEBAR -->
 
-            <aside class="category-sidebar">
+    <aside class="category-sidebar">
 
-                <div class="sidebar-block">
+        <div class="sidebar-block">
 
-                    <h3>Категории</h3>
+            <h3>Категории</h3>
 
-                    <ul>
+            <ul>
+                <li>Антисептики</li>
+                <li>Антибиотики</li>
+                <li>ЖКТ</li>
+                <li>Глаза</li>
+                <li>Иммунитет</li>
+                <li>Противовирусные</li>
+            </ul>
 
-                        <li>Антисептики</li>
-                        <li>Антибиотики</li>
-                        <li>ЖКТ</li>
-                        <li>Глаза</li>
-                        <li>Иммунитет</li>
-                        <li>Противовирусные</li>
+        </div>
 
-                    </ul>
+        <div class="sidebar-block">
 
-                </div>
+            <h3>Фильтр</h3>
 
-                <div class="sidebar-block">
+            <label>Цена</label>
 
-                    <h3>Фильтр</h3>
+            <input type="range">
 
-                    <label>Цена</label>
+            <label>
+                <input type="checkbox">
+                Есть в наличии
+            </label>
 
-                    <input type="range">
+            <label>
+                <input type="checkbox">
+                Со скидкой
+            </label>
 
-                    <label>
-                        <input type="checkbox">
-                        Есть в наличии
-                    </label>
+        </div>
 
-                    <label>
-                        <input type="checkbox">
-                        Со скидкой
-                    </label>
+    </aside>
 
-                </div>
+    <!-- CONTENT -->
 
-            </aside>
+    <div class="category-content">
 
-            <!-- CONTENT -->
+        <!-- TOPBAR -->
 
-            <div class="category-content">
+        <div class="category-topbar">
 
-                <!-- SORT -->
+            <div class="sort">
 
-                <div class="category-topbar">
+                Сортировка:
+                <span>По популярности</span>
 
-                    <div class="sort">
+            </div>
 
-                        Сортировка:
-                        <span>По популярности</span>
+            <div class="pagination-mini">
 
-                    </div>
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
 
-                    <div class="pagination-mini">
+            </div>
 
-                        <span>1</span>
-                        <span>2</span>
-                        <span>3</span>
+        </div>
 
-                    </div>
+        <!-- PRODUCTS -->
 
-                </div>
+        <div class="products-grid category-grid">
 
-                <!-- PRODUCTS -->
+            <!-- CARD -->
 
-                <div class="products-grid category-grid">
-
-                    <!-- CARD -->
-
-                    <div class="product-card">
-
-                        <div class="product-top">
-
-                            <span class="badge">
-                                Товар дня
-                            </span>
-
-                            <div class="product-image">
-                                <img src="images/product1.png" alt="">
-                            </div>
-
-                        </div>
-
-                        <div class="product-body">
-
-                            <div class="stock-row">
-
-                                <span class="stock">
-                                    Есть в наличии
-                                </span>
-
-                                <div class="stars">
-                                    ★★★★★
-                                </div>
-
-                            </div>
-
-                            <h3>
-                                Femibion Natalcare I
-                            </h3>
-
-                            <ul class="product-info">
-
-                                <li>30 таблеток</li>
-                                <li>Код: 223344</li>
-
-                            </ul>
-
-                            <div class="price-row">
-
-                                <div>
-
-                                    <div class="price">
-                                        41 108 ₽
-                                    </div>
-
-                                    <div class="old-price">
-                                        49 999 ₽
-                                    </div>
-
-                                </div>
-
-                                <button class="cart-circle">
-                                    🛒
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    <!-- PRODUCT -->
             <div class="product-card">
 
                 <div class="product-top">
@@ -264,20 +198,18 @@
                             Есть в наличии
                         </span>
 
-                        <div class="stars">
-                            ★★★★★
-                        </div>
+                        <div class="stars">★★★★★</div>
 
                     </div>
 
-                    <h3>
-                        Бицилол таблетки 3 мг, 30 шт.
-                    </h3>
+                    <h3>Бицилол таблетки 3 мг</h3>
 
                     <ul class="product-info">
+
                         <li>Бренд: Lirina</li>
-                        <li>10 шт в упаковке</li>
+                        <li>10 шт</li>
                         <li>Код: 153249</li>
+
                     </ul>
 
                     <div class="price-row">
@@ -304,7 +236,8 @@
 
             </div>
 
-            <!-- PRODUCT -->
+            <!-- CARD -->
+
             <div class="product-card">
 
                 <div class="product-top">
@@ -325,20 +258,18 @@
                             Есть в наличии
                         </span>
 
-                        <div class="stars">
-                            ★★★★☆
-                        </div>
+                        <div class="stars">★★★★☆</div>
 
                     </div>
 
-                    <h3>
-                        Femibion Natalcare I
-                    </h3>
+                    <h3>Femibion Natalcare I</h3>
 
                     <ul class="product-info">
+
                         <li>Бренд: Bayer</li>
                         <li>30 таблеток</li>
                         <li>Код: 223344</li>
+
                     </ul>
 
                     <div class="price-row">
@@ -365,7 +296,8 @@
 
             </div>
 
-            <!-- PRODUCT -->
+            <!-- CARD -->
+
             <div class="product-card">
 
                 <div class="product-top">
@@ -386,20 +318,18 @@
                             Нет в наличии
                         </span>
 
-                        <div class="stars">
-                            ★★★★★
-                        </div>
+                        <div class="stars">★★★★★</div>
 
                     </div>
 
-                    <h3>
-                        Гептрал 400 мг
-                    </h3>
+                    <h3>Гептрал 400 мг</h3>
 
                     <ul class="product-info">
+
                         <li>Бренд: Abbott</li>
                         <li>20 таблеток</li>
                         <li>Код: 555444</li>
+
                     </ul>
 
                     <div class="price-row">
@@ -426,7 +356,8 @@
 
             </div>
 
-            <!-- PRODUCT -->
+            <!-- CARD -->
+
             <div class="product-card">
 
                 <div class="product-top">
@@ -447,20 +378,18 @@
                             Есть в наличии
                         </span>
 
-                        <div class="stars">
-                            ★★★★★
-                        </div>
+                        <div class="stars">★★★★★</div>
 
                     </div>
 
-                    <h3>
-                        Бифиформ капсулы 30 шт
-                    </h3>
+                    <h3>Бифиформ капсулы</h3>
 
                     <ul class="product-info">
+
                         <li>Бренд: Pfizer</li>
                         <li>30 капсул</li>
                         <li>Код: 443322</li>
+
                     </ul>
 
                     <div class="price-row">
@@ -487,149 +416,46 @@
 
             </div>
 
-            <!-- PRODUCT -->
-            <div class="product-card">
+        </div>
 
-                <div class="product-top">
+        <!-- PAGINATION -->
 
-                    <span class="badge">Товар дня</span>
+        <div class="pagination">
 
-                    <div class="product-image">
-                        <img src="images/product5.png" alt="">
-                    </div>
-
-                </div>
-
-                <div class="product-body">
-
-                    <div class="stock-row">
-
-                        <span class="stock">
-                            Есть в наличии
-                        </span>
-
-                        <div class="stars">
-                            ★★★★☆
-                        </div>
-
-                    </div>
-
-                    <h3>
-                        Детралекс 500 мг
-                    </h3>
-
-                    <ul class="product-info">
-                        <li>Бренд: Servier</li>
-                        <li>30 таблеток</li>
-                        <li>Код: 999111</li>
-                    </ul>
-
-                    <div class="price-row">
-
-                        <div>
-
-                            <div class="price">
-                                41 108 ₽
-                            </div>
-
-                            <div class="old-price">
-                                49 999 ₽
-                            </div>
-
-                        </div>
-
-                        <button class="cart-circle">
-                            🛒
-                        </button>
-
-                    </div>
-
-                </div>
-            </div>
-
-                <!-- PAGINATION -->
-
-                <div class="pagination">
-
-                <span class="active">1</span>
-                <span>2</span>
-                <span>3</span>
-                <span>4</span>
-            
-                </div>
-
-            </div>
+            <span class="active">1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
 
         </div>
 
-        <!-- SALE BLOCK -->
+    </div>
 
-        <div class="category-extra">
+</div>
 
-            <div class="products-header">
-
-                <h2>Акция месяца</h2>
-
-            </div>
-
-            <div class="products-grid">
-
-                <!-- product-card -->
-                <!-- можно копировать карточки -->
-
-            </div>
-
-        </div>
-
-        <!-- VIEWED -->
+<!-- SALE -->
 
 <div class="category-extra">
 
     <div class="products-header">
 
-        <h2>Вы смотрели</h2>
+        <h2>Акция месяца</h2>
 
     </div>
 
     <div class="products-grid">
 
-        <!-- PRODUCT -->
-
         <div class="product-card">
-
             <div class="product-top">
-
                 <span class="badge">Товар дня</span>
-
                 <div class="product-image">
                     <img src="images/product1.png" alt="">
                 </div>
-
             </div>
 
             <div class="product-body">
 
-                <div class="stock-row">
-
-                    <span class="stock">
-                        Есть в наличии
-                    </span>
-
-                    <div class="stars">
-                        ★★★★★
-                    </div>
-
-                </div>
-
-                <h3>
-                    Бицилол таблетки 3 мг, 30 шт.
-                </h3>
-
-                <ul class="product-info">
-                    <li>Бренд: Lirina</li>
-                    <li>10 шт в упаковке</li>
-                    <li>Код: 153249</li>
-                </ul>
+                <h3>Бицилол таблетки</h3>
 
                 <div class="price-row">
 
@@ -645,17 +471,28 @@
 
                     </div>
 
-                    <button class="cart-circle">
-                        🛒
-                    </button>
+                    <button class="cart-circle">🛒</button>
 
                 </div>
 
             </div>
-
         </div>
 
-        <!-- PRODUCT -->
+    </div>
+
+</div>
+
+<!-- VIEWED -->
+
+<div class="category-extra">
+
+    <div class="products-header">
+
+        <h2>Вы смотрели</h2>
+
+    </div>
+
+    <div class="products-grid">
 
         <div class="product-card">
 
@@ -671,27 +508,7 @@
 
             <div class="product-body">
 
-                <div class="stock-row">
-
-                    <span class="stock">
-                        Есть в наличии
-                    </span>
-
-                    <div class="stars">
-                        ★★★★☆
-                    </div>
-
-                </div>
-
-                <h3>
-                    Femibion Natalcare I
-                </h3>
-
-                <ul class="product-info">
-                    <li>Бренд: Bayer</li>
-                    <li>30 таблеток</li>
-                    <li>Код: 223344</li>
-                </ul>
+                <h3>Femibion Natalcare I</h3>
 
                 <div class="price-row">
 
@@ -707,9 +524,7 @@
 
                     </div>
 
-                    <button class="cart-circle">
-                        🛒
-                    </button>
+                    <button class="cart-circle">🛒</button>
 
                 </div>
 
@@ -755,43 +570,9 @@
 
 </div>
 
-        <!-- SEO -->
+</div>
 
-        <div class="seo-text">
-
-            <h2>Seo текст</h2>
-
-            <div class="seo-grid">
-
-                <p>
-                    Лекарственные средства —
-                    важная часть современной медицины.
-                </p>
-
-                <p>
-                    В каталоге представлены товары
-                    от ведущих производителей.
-                </p>
-
-                <p>
-                    Заказывайте лекарства онлайн
-                    с доставкой и самовывозом.
-                </p>
-
-            </div>
-
-            <div class="seo-highlight">
-
-                Мы предлагаем широкий ассортимент
-                лекарственных препаратов и медицинских товаров.
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
+</section>      
     
 <!-- ================= BLOG ================= -->
 
