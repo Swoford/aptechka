@@ -531,8 +531,8 @@ a,
 
 .partners-section{
     padding:100px 0;
-    background:#0f1f2f;
-    color:#ffffff;
+    background:#ffffff;
+    color:#1f2d3d;
 }
 
 .partners-header{
@@ -552,6 +552,7 @@ a,
     text-align:center;
     opacity:0.7;
     padding:20px;
+    color:#1f2d3d;
 }
 
 .partner:hover{
@@ -563,8 +564,8 @@ a,
 
 .about-section{
     padding:120px 0 60px;
-    background:#0f1f2f;
-    color:#ffffff;
+    background:#ffffff;
+    color:#1f2d3d;
 }
 
 .about-section h2{
@@ -579,28 +580,32 @@ a,
 }
 
 .about-grid p{
-    opacity:0.9;
+    color:#6b7785;
     margin-bottom:20px;
+    line-height:1.8;
 }
 
 .about-highlight{
-    background:linear-gradient(90deg,#1f3c88,#2fc7a1);
-    padding:40px 0;
+    background:#f4f7fb;
+    padding:40px;
     margin:60px 0;
     border-radius:24px;
+    color:#1f2d3d;
+    border-left:5px solid #2fc7a1;
 }
 
 .show-more{
     color:#2fc7a1;
     text-decoration:none;
+    font-weight:600;
 }
 
 /* ================= ALPHABET ================= */
 
 .alphabet-section{
     padding:100px 0;
-    background:#0f1f2f;
-    color:#ffffff;
+    background:#ffffff;
+    color:#1f2d3d;
 }
 
 .alphabet-header{
@@ -614,13 +619,25 @@ a,
 .alphabet-header a{
     color:#2fc7a1;
     text-decoration:none;
+    font-weight:600;
 }
 
 .alphabet{
     display:flex;
     flex-wrap:wrap;
     gap:18px;
-    font-size:20px;
+    font-size:18px;
+    margin-bottom:60px;
+}
+
+.alphabet span{
+    cursor:pointer;
+    color:#6b7785;
+    transition:0.3s;
+}
+
+.alphabet span:hover{
+    color:#2fc7a1;
 }
 
 /* ================= ALPHABET CARDS ================= */
